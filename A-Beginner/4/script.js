@@ -1,0 +1,1 @@
+var person = {namn:"victor", Ålder:"17", Längd:"179"}
