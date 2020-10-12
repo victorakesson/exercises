@@ -1,0 +1,1 @@
+const victor = {firstname:"victor", lastname:"Åkesson", age:"17"}
