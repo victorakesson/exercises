@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title> Ändra bild</title>
+        <script type = "text/javascript">
+        function displayNextImage() {
+            x = (x === images.length - 1) ? 0 : x + 1;
+            document.getElementById("img").src = images[x]; 
+    
+        }
+        function changeImage() { 
+            setInterval(displayNextImage, 5000); 
+        
+        }
+
+        const images = [], x = -1; 
+        images[0] = "" // här kan du skriva in en bild fil eller länk.
+        images[0] = "" // här har du bilden den ska byta med
+        
+        </script>
+    </head>
+</html>
